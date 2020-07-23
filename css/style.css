@@ -1,0 +1,14 @@
+h1 {
+  color: plum;
+}
+
+ul {
+  List-style-type: circle;
+  list-style-position: inside;
+
+}
+
+ol {
+  margin: 25px;
+  list-style-type: decimal;
+}
