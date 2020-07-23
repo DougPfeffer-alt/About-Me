@@ -42,7 +42,7 @@ if (answer1 === true) {
 
 var answer5 = confirm('Do I listen to Rush?');
 if (answer1 === true) {
-  console.log('No, just because I\'m from Canada, doesn\'t mean that I like Rush!');
+  console.log('Nope, just because I\'m from Canada, doesn\'t mean that I like Rush!');
   alert('No, just because I\'m from Canada, doesn\'t mean that I like Rush!');
 } else {
   console.log('WRONG ANSWER! I\'m from Canada!');
