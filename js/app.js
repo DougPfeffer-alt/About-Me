@@ -1,31 +1,15 @@
 'use strict';
 
-// var answerOne = confirm('Are you ready to rumble?');
+var name = prompt('What is your name?');
+console.log('Hello, welcome to my page,', name);
+alert('Hello! Welcome to my page, ' + name + '.');
 
-// console.log(answerOne);
-
-// if (answerOne === true) {
-  // console.log('let\'s get ready to rumble');
-
-// } else {
-  // console.log('Okay. Another time then');
-// }
-
-var myBool = true;
-var anotherBool = false;
-var thirdBool = true;
-
-if (myBool && thirdBool) {
-  console.log('myBool and thirdBool are true');
-
+var answer1 = confirm('Am I from a foreign country?');
+if (answer1 === true) {
+  console.log('that\'s right, I\'m from Canada!');
+alert('that\s right, I\'m from Canada!');
+} else {
+  console.log('Nope, you ungrateful colonists, I\'m from Canada!');
+alert('Nope, you ungrateful colonists, I\'m from Canada!');
 }
 
-else if (myBool || anotherBool) {
-  console.log('myBool or anotherBool is true');
-
-}
-
-else if (thirdBool) {
-  console.log('thirdBool is true');
-
-}
