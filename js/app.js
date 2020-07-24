@@ -1,10 +1,12 @@
 'use strict';
 
+var nameinput;
+
 askName();
 function askName() {
-  var name = prompt('What is your name?');
-  // console.log('Hello, welcome to my page,', + name);
-  alert('Hello! Welcome to my page, ' + name + '. My name is Doug. Let\s play a game. I\'m going to ask you five questions, to see if you really know me.');
+  nameinput = prompt('What is your name?');
+  // console.log('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\s play a game. I\'m going to ask you five questions, to see if you really know me.');
+  alert('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\s play a game. I\'m going to ask you five questions, to see if you really know me.');
 }
 
 // Function 1
@@ -86,9 +88,9 @@ function askAnswer5() {
   }
   if (answer5 === 'yes' || answer5 === 'y') {
     // console.log('Nope, just because I\'m from Canada, doesn\'t mean that I like Rush!');
-    alert('Nope, just because I\'m from Canada, doesn\'t mean that I like Rush!. Thanks for playing ' + name + '.');
+    alert('Nope, just because I\'m from Canada, doesn\'t mean that I like Rush!. Thanks for playing ' + nameinput + '.');
   } else if (answer5 === 'no' || answer5 === 'n') {
     // console.log('You are correct! Just because I\'m from Canada, doesn\'t mean that I like Rush...they suck!');
-    alert('You are correct! Just because I\'m from Canada, doesn\'t mean that I like Rush...they suck! Thanks for playing ' + name + '.');
+    alert('You are correct! Just because I\'m from Canada, doesn\'t mean that I like Rush...they suck! Thanks for playing ' + nameinput + '.');
   }
 }

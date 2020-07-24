@@ -1,14 +1,80 @@
+
+/* Entire page */
+body {
+  background-color: rgba(211, 211, 211, 1);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgba(211, 211, 211, 1)
+}
+
+/* header only */
+header {
+  margin: 0px auto;
+  width: 960px;
+  background-color: rgb(211, 211, 211, 1);
+  height: 150px;
+
+}
+
+header > img {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
 h1 {
-  color: plum;
+  text-align: center;
+  padding: 20px;
+  color: black;
 }
 
-ul {
-  List-style-type: circle;
-  list-style-position: inside;
-
+h2 {
+  text-align: center;
+  padding: 1px;
+  color: black;
 }
 
-ol {
-  margin: 25px;
-  list-style-type: decimal;
+/* main only */
+
+main {
+  margin: 0px auto;
+  width: 980px;
+  background-color: rgb(99, 106, 117)
+}
+
+main > article {
+  width: 310px;
+  text-align: center; 
+  display: inline-block;
+  vertical-align: top;
+  height: 800px;
+  padding: 5px
+}
+
+main > article > img {
+  width: 310px;
+  border: 1px dotted black;
+  padding: 5px
+}
+
+main > article > p {
+  display: inline-block;
+  width: 310px;
+  border: 1px dotted black;
+  text-align: center;
+  padding: 5px
+}
+
+/* footer only */
+
+footer {
+  margin: 0px auto;
+  width: 960px;
+  background-color: rgb(211, 211, 211, 1);
+  height: 250px;
+  text-align: right;
+  font-style: italic;
+  color: black;
+
+
 }
