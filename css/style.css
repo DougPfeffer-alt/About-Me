@@ -53,14 +53,13 @@ main > article {
 
 main > article > img {
   width: 310px;
-  border: 1px dotted black;
+  border: 0px dotted black;
   padding: 5px
 }
 
 main > article > p {
   display: inline-block;
   width: 310px;
-  border: 1px dotted black;
   text-align: center;
   padding: 5px
 }
