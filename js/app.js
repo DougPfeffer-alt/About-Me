@@ -5,7 +5,7 @@ var nameinput;
 askName();
 function askName() {
   nameinput = prompt('What is your name?');
-  // console.log('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\s play a game. I\'m going to ask you five questions, to see if you really know me.');
+  // console.log('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\'s play a game. I\'m going to ask you five questions, to see if you really know me.');
   alert('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\'s play a game. I\'m going to ask you five questions, to see if you really know me.');
 }
 
@@ -14,7 +14,6 @@ function askName() {
 askAnswer1();
 function askAnswer1() {
   var answer1 = prompt('Am I from a foreign country?', 'Type yes or no.').toLowerCase();
-
   while (answer1 !== 'yes' && answer1 !== 'no' && answer1 !== 'y' && answer1 !== 'n') {
     answer1 = prompt('Please answer yes or no....nothing else');
   }
