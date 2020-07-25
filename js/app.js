@@ -6,7 +6,7 @@ askName();
 function askName() {
   nameinput = prompt('What is your name?');
   // console.log('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\s play a game. I\'m going to ask you five questions, to see if you really know me.');
-  alert('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\s play a game. I\'m going to ask you five questions, to see if you really know me.');
+  alert('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\'s play a game. I\'m going to ask you five questions, to see if you really know me.');
 }
 
 // Function 1
@@ -72,7 +72,7 @@ function askAnswer4() {
   if (answer4 === 'yes' || answer4 === 'y') {
     // console.log('Of course I do, I\'m from Canada!');
     alert('Of course I do, I\'m from Canada!');
-  } else if (answer4 === 'no' || answer4 == 'n') {
+  } else if (answer4 === 'no' || answer4 === 'n') {
     // console.log('WRONG ANSWER! I\'m from Canada!');
     alert('WRONG ANSWER! I\'m from Canada!');
   }
