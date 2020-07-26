@@ -3,7 +3,7 @@
 var score = 0;
 var nameinput = prompt('What is your name?');
 // console.log('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\'s play a game. I\'m going to ask you five questions, to see if you really know me.');
-alert('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\'s play a game. I\'m going to ask you seven questions, to see if you really know me.');
+alert('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\'s play a game. I\'m going to ask you seven questions, to see if you really know me. You answer to your best ability, and I\'ll let you know at the end how well you did.');
 
 // Question 1
 
@@ -100,13 +100,13 @@ while (attempts < 3) {
   }
 }
 if (attempts === 3) {
-  alert('Out of guesses and wrong, and the corrct answer is 7');
+  alert('Out of guesses and and all of them wrong. The corrct answer is 7');
 }
 
 // Question 7
 
 var attempts7 = 0;
-var answer7 = prompt('If I could eat only four foods for the rest of my life, I would be just fine. I\'ll give you six chances yo name one of those four?').toLowerCase();
+var answer7 = prompt('If I could eat only four foods for the rest of my life, I would be just fine. I\'ll give you six chances for you to name just one of those four?').toLowerCase();
 var foodsILike = ['peanut butter', 'steak', 'seafood', 'rice'];
 while (attempts7 < 5) {
   attempts7++;
