@@ -19,5 +19,5 @@
 
 ### JS
 
-- Added 2 new questions, highlighting while and fir loops, as well as arrays
+- Added 2 new questions, highlighting while and for loops, as well as arrays
 - Counted up the total correct and let the user know how they scored
