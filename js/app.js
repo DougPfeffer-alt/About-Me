@@ -20,7 +20,7 @@ if (answer1 === 'yes' || answer1 === 'y') {
   alert('Nope, you ungrateful colonists, I\'m from Canada!');
 }
 
-// // Question 2
+// Question 2
 
 var answer2 = prompt('Am I a Hockey Fan?', 'Type yes or no.').toLowerCase();
 while (answer2 !== 'yes' && answer2 !== 'no' && answer2 !== 'y' && answer2 !== 'n') {
@@ -35,7 +35,7 @@ if (answer2 === 'yes' || answer2 === 'y') {
   alert('WRONG ANSWER! I\'m from Canada!');
 }
 
-// // Question 3
+// Question 3
 
 var answer3 = prompt('Do I like Poutine?', 'Type yes or no.').toLowerCase();
 while (answer3 !== 'yes' && answer3 !== 'no' && answer3 !== 'y' && answer3 !== 'n') {
@@ -50,7 +50,7 @@ if (answer3 === 'yes' || answer3 === 'y') {
   alert('WRONG ANSWER! I\'m from Canada!');
 }
 
-// // Question 4
+// Question 4
 
 var answer4 = prompt('Do I watch Curling?', 'Type yes or no.').toLowerCase();
 while (answer4 !== 'yes' && answer4 !== 'no' && answer4 !== 'y' && answer4 !== 'n') {
@@ -65,7 +65,7 @@ if (answer4 === 'yes' || answer4 === 'y') {
   alert('WRONG ANSWER! I\'m from Canada!');
 }
 
-// // Question 5
+// Question 5
 
 var answer5 = prompt('Do I listen to Rush?', 'Type yes or no.').toLowerCase();
 while (answer5 !== 'yes' && answer5 !== 'no' && answer5 !== 'y' && answer5 !== 'n') {
