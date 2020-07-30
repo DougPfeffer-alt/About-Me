@@ -53,21 +53,21 @@ function question3() {
   }
 }
 
-// // Question 4
-
-// var answer4 = prompt('Do I watch Curling?', 'Type yes or no.').toLowerCase();
-// while (answer4 !== 'yes' && answer4 !== 'no' && answer4 !== 'y' && answer4 !== 'n') {
-//   answer4 = prompt('Please answer yes or no....nothing else');
-// }
-// if (answer4 === 'yes' || answer4 === 'y') {
-//   // console.log('Of course I do, I\'m from Canada!');
-//   alert('Of course I do, I\'m from Canada!');
-//   score++;
-// } else if (answer4 === 'no' || answer4 === 'n') {
-//   // console.log('WRONG ANSWER! I\'m from Canada!');
-//   alert('WRONG ANSWER! I\'m from Canada!');
-// }
-
+// Question 4
+function question4() {
+  var answer4 = prompt('Do I watch Curling?', 'Type yes or no.').toLowerCase();
+  while (answer4 !== 'yes' && answer4 !== 'no' && answer4 !== 'y' && answer4 !== 'n') {
+    answer4 = prompt('Please answer yes or no....nothing else');
+  }
+  if (answer4 === 'yes' || answer4 === 'y') {
+    // console.log('Of course I do, I\'m from Canada!');
+    alert('Of course I do, I\'m from Canada!');
+    score++;
+  } else if (answer4 === 'no' || answer4 === 'n') {
+    // console.log('WRONG ANSWER! I\'m from Canada!');
+    alert('WRONG ANSWER! I\'m from Canada!');
+  }
+}
 // // Question 5
 
 // var answer5 = prompt('Do I listen to Rush?', 'Type yes or no.').toLowerCase();
@@ -133,5 +133,5 @@ function question3() {
 question1();
 question2();
 question3();
-
+question4();
 alert(`Thanks for answering my questions ${nameinput}, you got ${score} correct!`);
