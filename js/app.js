@@ -22,7 +22,7 @@ function question1() {
 }
 
 // Question 2
-
+function question2() {
   var answer2 = prompt('Am I a Hockey Fan?', 'Type yes or no.').toLowerCase();
   while (answer2 !== 'yes' && answer2 !== 'no' && answer2 !== 'y' && answer2 !== 'n') {
     answer2 = prompt('Please answer yes or no....nothing else');
@@ -130,6 +130,7 @@ if (attempts7 === 5) {
 }
 
 question1();
+question2();
 
 
 alert(`Thanks for answering my questions ${nameinput}, you got ${score} correct!`);
