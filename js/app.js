@@ -69,20 +69,20 @@ function question4() {
   }
 }
 // // Question 5
-
-// var answer5 = prompt('Do I listen to Rush?', 'Type yes or no.').toLowerCase();
-// while (answer5 !== 'yes' && answer5 !== 'no' && answer5 !== 'y' && answer5 !== 'n') {
-//   answer5 = prompt('Please answer yes or no....nothing else');
-// }
-// if (answer5 === 'yes' || answer5 === 'y') {
-//   // console.log('Nope, just because I\'m from Canada, doesn\'t mean that I like Rush!');
-//   alert('Nope, just because I\'m from Canada, doesn\'t mean that I like Rush!. Thanks for playing ' + nameinput + '.');
-// } else if (answer5 === 'no' || answer5 === 'n') {
-//   // console.log('You are correct! Just because I\'m from Canada, doesn\'t mean that I like Rush...they suck!');
-//   alert('You are correct! Just because I\'m from Canada, doesn\'t mean that I like Rush...they suck! Thanks for playing ' + nameinput + ', now on to some tricky questions.');
-//   score++;
-// }
-
+function question5() {
+  var answer5 = prompt('Do I listen to Rush?', 'Type yes or no.').toLowerCase();
+  while (answer5 !== 'yes' && answer5 !== 'no' && answer5 !== 'y' && answer5 !== 'n') {
+    answer5 = prompt('Please answer yes or no....nothing else');
+  }
+  if (answer5 === 'yes' || answer5 === 'y') {
+    // console.log('Nope, just because I\'m from Canada, doesn\'t mean that I like Rush!');
+    alert('Nope, just because I\'m from Canada, doesn\'t mean that I like Rush!. Thanks for playing ' + nameinput + '.');
+  } else if (answer5 === 'no' || answer5 === 'n') {
+    // console.log('You are correct! Just because I\'m from Canada, doesn\'t mean that I like Rush...they suck!');
+    alert('You are correct! Just because I\'m from Canada, doesn\'t mean that I like Rush...they suck! Thanks for playing ' + nameinput + ', now on to some tricky questions.');
+    score++;
+  }
+}
 // // Question 6
 
 // var attempts = 0;
@@ -134,4 +134,7 @@ question1();
 question2();
 question3();
 question4();
+question5();
+
+
 alert(`Thanks for answering my questions ${nameinput}, you got ${score} correct!`);
