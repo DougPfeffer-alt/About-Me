@@ -37,7 +37,7 @@ function question2() {
   }
 }
 
-// // Question 3
+// Question 3
 function question3() {
   var answer3 = prompt('Do I like Poutine?', 'Type yes or no.').toLowerCase();
   while (answer3 !== 'yes' && answer3 !== 'no' && answer3 !== 'y' && answer3 !== 'n') {
@@ -68,7 +68,7 @@ function question4() {
     alert('WRONG ANSWER! I\'m from Canada!');
   }
 }
-// // Question 5
+// Question 5
 function question5() {
   var answer5 = prompt('Do I listen to Rush?', 'Type yes or no.').toLowerCase();
   while (answer5 !== 'yes' && answer5 !== 'no' && answer5 !== 'y' && answer5 !== 'n') {
@@ -83,29 +83,29 @@ function question5() {
     score++;
   }
 }
-// // Question 6
-
-// var attempts = 0;
-// var answer6 = Number(prompt('I\'m thinking of a number between 1 and 10. Can you guess what that number is? I\'ll give you four bites at the apple'));
-// while (attempts < 3) {
-//   attempts++;
-//   if (answer6 < 7) {
-//     // console.log('Good guess, but not quite right. Too low. Try again.');
-//     answer6 = Number(prompt('Good guess, but not quite right. Too low. Try again.'));
-//   } else if (answer6 > 7) {
-//     // console.log('Good guess, but not quite right. Too high. Try again.');
-//     answer6 = Number(prompt('Good guess, but not quite right. Too high. Try again.'));
-//   } else if (answer6 === 7) {
-//     // console.log('Hey, you\re good at this, nice work.');
-//     alert('Hey, you\'re good at this, nice work.');
-//     attempts = 10;
-//     score++;
-//   }
-// }
-// if (attempts === 3) {
-//   alert('Out of guesses and and all of them wrong. The corrct answer is 7');
-// }
-
+// Question 6
+function question6() {
+  var attempts = 0;
+  var answer6 = Number(prompt('I\'m thinking of a number between 1 and 10. Can you guess what that number is? I\'ll give you four bites at the apple'));
+  while (attempts < 3) {
+    attempts++;
+    if (answer6 < 7) {
+      // console.log('Good guess, but not quite right. Too low. Try again.');
+      answer6 = Number(prompt('Good guess, but not quite right. Too low. Try again.'));
+    } else if (answer6 > 7) {
+      // console.log('Good guess, but not quite right. Too high. Try again.');
+      answer6 = Number(prompt('Good guess, but not quite right. Too high. Try again.'));
+    } else if (answer6 === 7) {
+      // console.log('Hey, you\re good at this, nice work.');
+      alert('Hey, you\'re good at this, nice work.');
+      attempts = 10;
+      score++;
+    }
+  }
+  if (attempts === 3) {
+    alert('Out of guesses and and all of them wrong. The corrct answer is 7');
+  }
+}
 // // Question 7
 
 // var attempts7 = 0;
@@ -135,6 +135,6 @@ question2();
 question3();
 question4();
 question5();
-
+question6();
 
 alert(`Thanks for answering my questions ${nameinput}, you got ${score} correct!`);
