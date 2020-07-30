@@ -106,29 +106,30 @@ function question6() {
     alert('Out of guesses and and all of them wrong. The corrct answer is 7');
   }
 }
-// // Question 7
-
-// var attempts7 = 0;
-// var answer7 = prompt('If I could eat only four foods for the rest of my life, I would be just fine. I\'ll give you six chances for you to name just one of those four?').toLowerCase();
-// var foodsILike = ['peanut butter', 'steak', 'seafood', 'rice'];
-// while (attempts7 < 5) {
-//   attempts7++;
-//   for (var i = 0; i < foodsILike.length; i++) {
-//     if (answer7 === foodsILike[i]) {
-//       // console.log('Nice work");
-//       alert('Nice Work');
-//       attempts7 = 10;
-//       score++;
-//     }
-//   }
-//   if (attempts7 !== 10) {
-//     // console.log('Try again');
-//     answer7 = prompt('Try Again').toLowerCase();
-//   }
-// }
-// if (attempts7 === 5) {
-//   alert('Out of guesses and you were doing so well. By the way, the correct answers are peanut butter, steak, seafood and rice');
-// }
+// Question 7
+function question7() {
+  var attempts7 = 0;
+  var answer7 = prompt('If I could eat only four foods for the rest of my life, I would be just fine. I\'ll give you six chances for you to name just one of those four?').toLowerCase();
+  var foodsILike = ['peanut butter', 'steak', 'seafood', 'rice'];
+  while (attempts7 < 5) {
+    attempts7++;
+    for (var i = 0; i < foodsILike.length; i++) {
+      if (answer7 === foodsILike[i]) {
+        // console.log('Nice work");
+        alert('Nice Work');
+        attempts7 = 10;
+        score++;
+      }
+    }
+    if (attempts7 !== 10) {
+      // console.log('Try again');
+      answer7 = prompt('Try Again').toLowerCase();
+    }
+  }
+  if (attempts7 === 5) {
+    alert('Out of guesses and you were doing so well. By the way, the correct answers are peanut butter, steak, seafood and rice');
+  }
+}
 
 question1();
 question2();
@@ -136,5 +137,6 @@ question3();
 question4();
 question5();
 question6();
+question7();
 
 alert(`Thanks for answering my questions ${nameinput}, you got ${score} correct!`);
