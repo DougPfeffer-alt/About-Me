@@ -6,50 +6,52 @@ var nameinput = prompt('What is your name?');
 alert('Hello! Welcome to my page, ' + nameinput + '. My name is Doug. Let\'s play a game. I\'m going to ask you seven questions, to see if you really know me. You answer to your best ability, and I\'ll let you know at the end how well you did.');
 
 // Question 1
-
-var answer1 = prompt('Am I from a foreign country?', 'Type yes or no.').toLowerCase();
-while (answer1 !== 'yes' && answer1 !== 'no' && answer1 !== 'y' && answer1 !== 'n') {
-  answer1 = prompt('Please answer yes or no....nothing else');
-}
-if (answer1 === 'yes' || answer1 === 'y') {
-  // console.log('That\'s right, I\'m from Canada!');
-  alert('That\'s right, I\'m from Canada!');
-  score++;
-} else if (answer1 === 'no' || answer1 === 'n') {
-  // console.log('Nope, you ungrateful colonists, I\'m from Canada!');
-  alert('Nope, you ungrateful colonists, I\'m from Canada!');
+function question1() {
+  var answer1 = prompt('Am I from a foreign country?', 'Type yes or no.').toLowerCase();
+  while (answer1 !== 'yes' && answer1 !== 'no' && answer1 !== 'y' && answer1 !== 'n') {
+    answer1 = prompt('Please answer yes or no....nothing else');
+  }
+  if (answer1 === 'yes' || answer1 === 'y') {
+    // console.log('That\'s right, I\'m from Canada!');
+    alert('That\'s right, I\'m from Canada!');
+    score++;
+  } else if (answer1 === 'no' || answer1 === 'n') {
+    // console.log('Nope, you ungrateful colonists, I\'m from Canada!');
+    alert('Nope, you ungrateful colonists, I\'m from Canada!');
+  }
 }
 
 // Question 2
 
-var answer2 = prompt('Am I a Hockey Fan?', 'Type yes or no.').toLowerCase();
-while (answer2 !== 'yes' && answer2 !== 'no' && answer2 !== 'y' && answer2 !== 'n') {
-  answer2 = prompt('Please answer yes or no....nothing else');
-}
-if (answer2 === 'yes' || answer2 === 'y') {
-  // console.log('absolutely correct, I\'m from Canada!');
-  alert('Absolutely correct, I\'m from Canada!');
-  score++;
-} else if (answer2 === 'no' || answer2 === 'n') {
-  // console.log('WRONG ANSWER! I\'m from Canada!');
-  alert('WRONG ANSWER! I\'m from Canada!');
+  var answer2 = prompt('Am I a Hockey Fan?', 'Type yes or no.').toLowerCase();
+  while (answer2 !== 'yes' && answer2 !== 'no' && answer2 !== 'y' && answer2 !== 'n') {
+    answer2 = prompt('Please answer yes or no....nothing else');
+  }
+  if (answer2 === 'yes' || answer2 === 'y') {
+    // console.log('absolutely correct, I\'m from Canada!');
+    alert('Absolutely correct, I\'m from Canada!');
+    score++;
+  } else if (answer2 === 'no' || answer2 === 'n') {
+    // console.log('WRONG ANSWER! I\'m from Canada!');
+    alert('WRONG ANSWER! I\'m from Canada!');
+  }
 }
 
 // Question 3
 
-var answer3 = prompt('Do I like Poutine?', 'Type yes or no.').toLowerCase();
-while (answer3 !== 'yes' && answer3 !== 'no' && answer3 !== 'y' && answer3 !== 'n') {
-  answer3 = prompt('Please answer yes or no....nothing else');
+  var answer3 = prompt('Do I like Poutine?', 'Type yes or no.').toLowerCase();
+  while (answer3 !== 'yes' && answer3 !== 'no' && answer3 !== 'y' && answer3 !== 'n') {
+    answer3 = prompt('Please answer yes or no....nothing else');
+  }
+  if (answer3 === 'yes' || answer3 === 'y') {
+    // console.log('Of course I do, I\'m from Canada!');
+    alert('Of course I do, I\'m from Canada!');
+    score++;
+  } else if (answer3 === 'no' || answer3 === 'n') {
+    // console.log('WRONG ANSWER! I\'m from Canada!');
+    alert('WRONG ANSWER! I\'m from Canada!');
+  }
 }
-if (answer3 === 'yes' || answer3 === 'y') {
-  // console.log('Of course I do, I\'m from Canada!');
-  alert('Of course I do, I\'m from Canada!');
-  score++;
-} else if (answer3 === 'no' || answer3 === 'n') {
-  // console.log('WRONG ANSWER! I\'m from Canada!');
-  alert('WRONG ANSWER! I\'m from Canada!');
-}
-
 // Question 4
 
 var answer4 = prompt('Do I watch Curling?', 'Type yes or no.').toLowerCase();
@@ -126,4 +128,8 @@ while (attempts7 < 5) {
 if (attempts7 === 5) {
   alert('Out of guesses and you were doing so well. By the way, the correct answers are peanut butter, steak, seafood and rice');
 }
+
+question1();
+
+
 alert(`Thanks for answering my questions ${nameinput}, you got ${score} correct!`);
