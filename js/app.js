@@ -103,7 +103,7 @@ function question6() {
     }
   }
   if (attempts === 3) {
-    alert('Out of guesses and and all of them wrong. The corrct answer is 7');
+    alert('Out of guesses and and all of them are wrong. The correct answer is 7');
   }
 }
 // Question 7
