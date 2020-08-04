@@ -25,3 +25,13 @@
 ### Partner for the pair programming
 - Driver: Louis Caruso
 - Navigator: Doug Pfeffer
+
+## Lab 04
+
+### JS
+
+- Pair Programming - added Functions with a partner (One Driver and one Navigator)
+
+### Lab 05
+
+- Wensite Launched
